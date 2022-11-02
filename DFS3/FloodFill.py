@@ -1,3 +1,5 @@
+#TimeComplexity: O(mn)
+#SpaceComplexity: O(mn)
 class Solution:
     def floodFill(self, image: List[List[int]], sr: int, sc: int, color: int) -> List[List[int]]:
         self.dirs = [[0,1],[1,0],[-1,0],[0,-1]] # setting direction array
