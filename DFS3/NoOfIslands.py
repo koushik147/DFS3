@@ -1,3 +1,5 @@
+#TimeComplexity: O(mn)
+#SpaceComplexity: O(mn)
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         self.m = len(grid) # assinging with row length
